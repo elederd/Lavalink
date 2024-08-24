@@ -5,6 +5,6 @@ spring:
     name: Lavalink
 lavalink:
   server:
-    password: errede
+    password: mySecurePassword
   reconnect:
     enabled: true
