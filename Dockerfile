@@ -9,7 +9,7 @@ COPY application.yml /opt/lavalink/application.yml
 WORKDIR /opt/lavalink
 
 # Expone el puerto que Lavalink usará
-EXPOSE 2333
+EXPOSE 443
 
 # Comando para ejecutar Lavalink
 CMD ["java", "-jar", "Lavalink.jar"]
